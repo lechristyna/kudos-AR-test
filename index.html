@@ -1,0 +1,19 @@
+<html>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <!-- we import arjs version without NFT but with marker + location based support -->
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  <body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded arjs>
+      <a-marker preset="hiro">
+        <a-sphere material='src:
+                            https://images.ctfassets.net/440y9b545yd9/gpF8uuzB4e4TfkKHiBBOi/ef63fc7bd56298455365f7bae1af9728/Muchkin_Cat_5_things850.jpg;'scale= "0.5 0.5 0.5" radius="1"
+                  animation="property:rotation; to:0 0 360; dur: 25000;easing:linear;loop:true"
+        
+          ></a-sphere>
+   
+        ></a-entity>
+      </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
